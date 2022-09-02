@@ -132,3 +132,7 @@
 
 - 브런치 변경
 > git checkout develop1
+
+```
+마스터와 develop 충돌 시켜보자
+```
