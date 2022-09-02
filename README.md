@@ -26,12 +26,12 @@
 - head: 현재 작업중인 branch를 가리킴
 - brance: 가지 또는 분기점을 의미하며, 작업을 할 때 현재 상태를 복사하여 branch에서 작업을 한 후에 완전하다 싶을 때 merge를 하여 작업을 한다
 - merge: 다른 branch의 내용을 현재 branch로 가져와 합치는 작업
-![git-flow](/git-flow.jfif)
+![git-flow](/images/git-flow.jfif)
 
 # git workflow
-![git-flow](/git-flow.png)
+![git-flow](/images/git-flow.png)
 
-![git-status](/git-status.png)
+![git-status](/images/git-status.png)
 
 - working: 우리가 작업하고 있는 공간
     - untracked: .gitignore
@@ -51,33 +51,53 @@
 > git init 
 .git 디렉터리 생성
 
-![gitfilelist](/gitfilelist.png)
+![gitfilelist](/images/gitfilelist.png)
 ## 깃 삭제 하기
 > rm -rf .git
 
 ## 깃 단축키 설정
 > git config --global alias.st status
 
-![git-alias](/git-alias.png)
+![git-alias](/images/git-alias.png)
 
 
 ## 깃 기초 명령어
 - 깃 상태 확인
 > git status
 
-![git-status1](/git-status1.png)
+![git-status1](/images/git-status1.png)
 
 > git add 파일
 
 - git add 로 추가시 스테이징으로 파일이 올라간걸 확인 가능
 
-![git-status2](/git-status2.png)
+![git-status2](/images/git-status2.png)
 
 > git rm --cached 파일명
 
 - staging 에서 다시 working으로 돌리기
 
-![git-status3](/git-status3.png)
+![git-status3](/images/git-status3.png)
 
 
+## 깃 파일 제외 파일
+.gitignore
 
+![gitignore](/images/gitignore.png)
+
+## 이전 버전 비교 하기
+> git diff 파일명
+
+![git diff](/images/git-diff.png)
+
+## 커밋으로 스테이징에 있는 파일을 git 레퍼지토리로 옮겨줌
+> git commit -m '커밋 메시지'
+
+## 깃 로그 확인
+> git log
+
+## 원격 저장소에 푸시
+> git push origin [브런치]
+
+## 원격 저장소에서 로컬로 pull
+>  git pull origin [브런치]
