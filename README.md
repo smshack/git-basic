@@ -104,13 +104,14 @@
   
 ## 커밋 수정
 ### 이전 커밋으로 돌리기 작업내용 유지
-git reset --soft 58cfa445927e1af97b1eedd53385f10cedc544ca
+> git reset --soft 58cfa445927e1af97b1eedd53385f10cedc544ca
 
 ### 다시 커밋
 
 ## 그냥 push 할경우 충돌로 오류 발생
-git push -f origin main
+> git push -f origin main
 
 ## 커밋 메시지 변경
-git commit --amend
-git push -f origin main
+> git commit --amend
+> git push -f origin main
+    
