@@ -151,3 +151,22 @@
 ```
 develop merge
 ```
+---
+## 깃에서 원격 저장소 관리
+- 원격 저장소 추가
+> git remote add [저장소 이름] [저장소 경로]
+
+```
+git remote add remote-test git@github.com:smshack/git-remote.git
+```
+- 원격 저장소 목록 확인
+> git remote -v
+
+- 원격 저장소 이름 바꾸기
+> git remote rename [origin name] [rename]
+```
+git remote rename remote-test test-remote
+```
+
+- 특정 저장소 제거
+> git remote rm test-remote
