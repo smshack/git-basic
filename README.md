@@ -57,4 +57,27 @@
 
 ## 깃 단축키 설정
 > git config --global alias.st status
+
 ![git-alias](/git-alias.png)
+
+
+## 깃 기초 명령어
+- 깃 상태 확인
+> git status
+
+![git-status1](/git-status1.png)
+
+> git add 파일
+
+- git add 로 추가시 스테이징으로 파일이 올라간걸 확인 가능
+
+![git-status2](/git-status2.png)
+
+> git rm --cached 파일명
+
+- staging 에서 다시 working으로 돌리기
+
+![git-status3](/git-status3.png)
+
+
+
