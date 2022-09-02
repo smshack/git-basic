@@ -133,6 +133,21 @@
 - 브런치 변경
 > git checkout develop1
 
+<<<<<<< HEAD
 ```
 마스터와 develop 충돌 시켜보자
+```
+=======
+- 브런치 작업 후 add + commit
+- 마스터 브런치로 다시 수정후 merge
+> git merge develop1
+
+- 작업 끝난 브런치 정리
+> git branch -d develop1
+---
+## git 충돌 해결하기
+- 두개 이상의 브런치를 사용하여 작업시 충돌로 인해서 merge가 안되는 경우는 어떻게??
+
+```
+develop merge
 ```
